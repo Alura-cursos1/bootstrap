@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 
+
 .imagem-carrosel-um{
     object-fit: cover;
     object-position: 0 80%;
@@ -27,4 +28,12 @@
 
 .borda-cor-especial{
     border: 1px solid darkred;
+}
+
+.card-posicao-imagem{
+    object-fit: cover;
+    height: 200px;
+}
+.card-largura{
+    max-width: 18rem;
 }
