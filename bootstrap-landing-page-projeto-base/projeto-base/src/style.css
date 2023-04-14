@@ -13,6 +13,10 @@
     height: 500px;
 }
 
+.sombra-texto{
+    text-shadow: 3px 3px 2px black;
+}
+
 .fonte-titulo{
     font-family: 'Pacifico', cursive;
 }
@@ -23,7 +27,17 @@
 
 .botao-cor-especial{
     background-color: darkred;
+    border: 1px solid darkred;
     color: white;
+}
+
+.botao-cor-especial:hover{
+    background-color: red;
+    border: 1px solid darkred;
+    font-weight: 600;
+    transition: 0.8s;
+    color: white;
+
 }
 
 .borda-cor-especial{
@@ -36,4 +50,8 @@
 }
 .card-largura{
     max-width: 18rem;
+}
+
+.bg-modal{
+    background-color: #ffdcdc;
 }
